@@ -1,4 +1,4 @@
-Here is the updated Markdown with the **Schedule**, **Talk Summaries**, and **Lightning Talk** integrated cleanly into the structure:
+
 
 ---
 
@@ -25,8 +25,12 @@ Here is the updated Markdown with the **Schedule**, **Talk Summaries**, and **Li
 
 👤 *Speaker: Madhavakumar*
 
-* What is Random? Which Random is Random? Do we actually need Random?
-* Cannot be predicted — but no true randomness in computing
+### 📖 Talk Description:
+
+What is Random? Which Random is Random? Do we actually need Random?
+This session dove into the concept of "PseudoRandom" and discussed its advantages, limitations, and real-world implications in Python.
+
+* Randomness cannot be predicted — but no true randomness exists in computation
 * **Seed number** is input to an algorithm → gives *pseudo-random* output
 * Common uses: **Games**, **Cryptography**, **OTPs**
 * **Seed value** is often derived from the environment
@@ -48,9 +52,10 @@ Here is the updated Markdown with the **Schedule**, **Talk Summaries**, and **Li
 
 👤 *Speaker: Praveen*
 
-* Discussed graphics programming on **resource-constrained devices**
-* Demos included display modules interfaced with **ESP32**
-* Sample game showcased along with source code explanation
+### 📖 Talk Description:
+
+In this talk, the audience got an idea of how graphics are processed in **resource-constrained devices** using **MicroPython on ESP32**.
+The demo included interfacing various display modules and showcasing a simple game with source code walkthrough.
 
 ### Flow:
 
@@ -60,13 +65,13 @@ Here is the updated Markdown with the **Schedule**, **Talk Summaries**, and **Li
 * Display Driver: **ILI9341**
 * Interface: **SPI (Serial Peripheral Interface)**
 
-👤 *Contributor Mentioned:* [https://linkedin.com/praveenmax](https://www.linkedin.com/in/praveenmax/)
+👤 *Contributor Mentioned:* [https://www.linkedin.com/in/praveenmax/](https://www.linkedin.com/in/praveenmax/)
 
 ### 🔍 Open Questions:
 
 * What happens in *Immediate Direct* vs. *Frame Buffer* rendering?
 * Where is the frame buffer offloaded to?
-* Are SPI commands executed sequentially? - Yes Depends Display Bus Size
+* Are SPI commands executed sequentially?
 * What determines command priority?
 * How is display refresh rate managed?
 
@@ -76,10 +81,10 @@ Here is the updated Markdown with the **Schedule**, **Talk Summaries**, and **Li
 
 👤 *Speaker: Nishanth*
 
-* Introduced **MCP** and how it connects LLMs with external tools
-* Setup walkthrough, architecture explained
-* Live demo: MCP server in Python
-* Bonus demo: Generated tests using **Playwright MCP** (or equivalent)
+### 📖 Talk Description:
+
+This session introduced **MCP (Model Context Protocol)**, explained its setup, and showed how it acts as a middleware that bridges LLMs and developer tools.
+The speaker demonstrated a minimal MCP server in Python and a productivity-boosting example such as generating tests using Playwright MCP or similar tool.
 
 ### Architecture:
 
@@ -105,8 +110,10 @@ Prompt → LLM → Understand Query → List Tools → MCP Server → Third Part
 
 👤 *Speaker: Prof. Amritanshu*
 
-* A brief 5-minute technical insight into efficient ways of generating permutations using Python
-* Likely covered techniques beyond `random.shuffle()` — e.g., usage of `itertools`, `numpy`, or custom generators
+### 📖 Talk Description:
+
+A crisp 5-minute session exploring how to generate **random permutations** in Python.
+Covered efficient techniques using libraries like `random`, `itertools`, and potentially custom shufflers. Emphasis on **correctness**, **uniformity**, and **performance**.
 
 ---
 
@@ -124,6 +131,5 @@ for making this a fun, engaging, and insightful meetup!
 ---
 
 **Feel free to share and contribute to the knowledge!**
-🌐 *GitHub repo links and slides (if any) will be added soon.*
 
 ---
