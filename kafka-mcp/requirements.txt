@@ -1,0 +1,4 @@
+kafka-python==2.2.10
+mcp[cli]==1.9.3
+pydantic==2.10.6
+uv==0.7.12
